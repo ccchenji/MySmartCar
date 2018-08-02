@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1438789499</fileChecksum>
+    <configuration>
+        <name>KEA128_Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_CH.c</file>
+            <file>$PROJ_DIR$\..\..\App\control.c</file>
+            <file>$PROJ_DIR$\..\..\App\dir_control.c</file>
+            <file>$PROJ_DIR$\..\..\App\MKEA128_it.c</file>
+            <file>$PROJ_DIR$\..\..\App\balance_control.c</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\MKEA128_conf.h</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_key_event.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\myiic.c</file>
+            <file>$PROJ_DIR$\..\..\App\motor_control.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\IIC.c</file>
+            <file>$PROJ_DIR$\..\..\App\MKEA128_conf.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_computer.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\BMX055.c</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\MKEA128_it.h</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\PORT_cfg.h</file>
+            <file>$PROJ_DIR$\..\..\App\speed_control.c</file>
+            <file>$PROJ_DIR$\..\..\App\sensor.c</file>
+            <file>$PROJ_DIR$\..\..\App\Attitude_Calculation.c</file>
+            <file>$PROJ_DIR$\..\..\App\main.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\MPU6050.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_ASCII.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_key.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_LCD.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_ST7735R.c</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_wdog.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_NRF24L0.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_uart.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_NRF24L0_MSG.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_port.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_ASCII.o</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\include.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Hardware.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_uart.i</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\MMA8451.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_LCD_ST7735S.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_port.i</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_port.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\motor_control.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\dir_control.pbi</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\Attitude_Calculation.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_LCD_ST7735R.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Picture.i</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Common.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_LCD_CH.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\sensor.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_SysTick.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\sensor.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_NRF24L0_MSG.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MKEA128_conf.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_adc.pbi</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\myiic.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\startup_SKEAZ1284.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\IIC.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_TSL1401.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\dir_control.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\myiic.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Printf.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\system_SKEAZ1284.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font6x8_ASCII.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\balance_control.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Printf.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_SysTick.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_SysTick.o</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_wdog.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Exe\vcan_Kinetis.out</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_computer.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_ST7735S.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_key_event.pbi</file>
+            <file>$PROJ_DIR$\..\..\Lib\CMSIS\Inc\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\arm_math.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\vectors.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Widget.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_PIT.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\speed_control.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_key.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Hardware.pbi</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\balance_control.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_ST7735R.o</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_gpio_cfg.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MPU6050.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_CH.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MyOLED.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\balance_control.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_computer.pbi</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\sensor.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_LED.H</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_UI_VAR.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_uart.o</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\motor_control.h</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\dir_control.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_ftm.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Widget.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MKEA128_it.o</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_LCD_ST7735R.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_NRF24L0.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\Font8x10_ASCII.i</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_key.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\main.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\BMX055.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Widget.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Hardware.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LED.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Menu.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_TSL1401.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_gpio.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Common.pbi</file>
+            <file>$PROJ_DIR$\..\..\App\enter.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font8x8_ASCII.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font4x6_ASCII.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_GBasic.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\misc.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MKEA128_it.pbi</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x8_ASCII.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_ASCII.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_NRF24L0_MSG.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_CH.o</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\vectors.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_adc.i</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font4x6_ASCII.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Exe\vcan_Kinetis.bin</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\speed_control.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Config.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\BMX055.pbi</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font8x10_ASCII.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Common.i</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_adc.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\vectors.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\misc.i</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_ftm.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MPU6050.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_ST7735S.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_wdog.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_adc.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_LCD_ST7735S.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\myiic.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\MyOLED.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\control.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\speed_control.pbi</file>
+            <file>$PROJ_DIR$\config files\vcan_ROM_KEA128.icf</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Menu.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\MPU6050.i</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x10_ASCII.h</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_uart.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\CMSIS\Inc\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_key.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font6x8_ASCII.o</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Picture.h</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_SysTick.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Widget.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_ASCII.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MKEA128_conf.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font8x8_ASCII.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_computer.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\control.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_key.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\system_SKEAZ1284.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_LED.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Menu.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_PIT.o</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_key_event.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_TSL1401.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Attitude_Calculation.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_UI_VAR.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Printf.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Picture.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_port.o</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\MyOLED.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\Font8x8_ASCII.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_ftm.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_key_event.i</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\KEA_pit.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\myiic.i</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font_Macro.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font6x8_ASCII.h</file>
+            <file>$PROJ_DIR$\..\..\Lib\CMSIS\Inc\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_Menu.i</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_NRF24L0_MSG.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\IIC.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\vcan_Kinetis.map</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Printf.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\MKEA128_conf.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LED.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_GBasic.o</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_UI_VAR.h</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\kinetis\SKEAZ1284.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_ASCII.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_wdog.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Attitude_Calculation.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\SOLGUI_GBasic.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\vectors.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_PIT.pbi</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\MPU6050.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Type.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\MPU3050.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD.o</file>
+            <file>F:\常用文件\2018_13th_NXP_Smartcar-djh_software\Smartcar_直立\Chip\src\misc.c</file>
+            <file>F:\常用文件\2018_13th_NXP_Smartcar-djh_software\Smartcar_直立\Chip\src\IAR\system_SKEAZ1284.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Hardware.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\MKEA128_it.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\motor_control.o</file>
+            <file>F:\常用文件\2018_13th_NXP_Smartcar-djh_software\Smartcar_直立\App\main.c</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\system_SKEAZ1284.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\IIC.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\speed_control.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Common.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_TSL1401.pbi</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_wdog.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_UI_VAR.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x10_ASCII.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\MyOLED.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Common.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_GBasic.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_PIT.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\IAR\startup_SKEAZ1284.s</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_ftm.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_NRF24L0.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_uart.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Menu.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\common.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font4x6_ASCII.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Hardware.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x8_ASCII.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_LED.C</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_adc.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_TSL1401.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_port.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\IAR\system_SKEAZ1284.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\vectors.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Picture.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Printf.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Widget.c</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\KEA_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_NRF24L0_MSG.c</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font6x8_ASCII.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\KEA_SysTick.c</file>
+            <file>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_ST7735S.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\App\Inc\control.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_LCD.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_NRF24L0.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_computer.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\balance_control.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\motor_control.pbi</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Include.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\BMX055.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\KEA_ftm.i</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\IIC.i</file>
+            <file>$PROJ_DIR$\..\..\Board\inc\VCAN_LCD.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_UI_VAR.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_key_event.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font8x10_ASCII.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_NRF24L0.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\List\VCAN_LCD_CH.i</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\IAR\system_SKEAZ1284.h</file>
+            <file>$PROJ_DIR$\..\..\SOLGUI\src\MyOLED.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\VCAN_LCD_ST7735R.pbi</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\dir_control.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\sensor.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\vcan_Kinetis.pbd</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\Font4x6_ASCII.pbi</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\misc.h</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_Picture.o</file>
+            <file>$PROJ_DIR$\KEA128_Debug\Obj\SOLGUI_GBasic.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 67 197</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_CH.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 280 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 273 34 134 81 99 112 142 124 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\control.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\dir_control.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 284</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112 210 273 96 46 132 142 261 193 136 95 134 102 87 92 5 97 71 159 289 81 30 162 180 158 163 33 91 40 149 281 286 38 168 117 242 34 44 181 164 139 189 88 100 196 268 282 213 169 131 79 270 53 269 224 72 203 14 223 274 135 279 267 113 36 99 124 212 43 118 155</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\MKEA128_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\balance_control.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210 273 112 96 46 132 40 142 261 193 136 95 134 102 87 92 5 97 71 159 289 81 30 162 180 158 163 33 91 149 281 286 38 168 117 242 34 44 181 164 139 189 88 100 196 268 282 213 169 131 79 270 53 269 224 72 203 14 223 274 135 279 267 113 36 99 124 212 43 118 155</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_key_event.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188 276</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 102 202</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\myiic.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\motor_control.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\IIC.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 272 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\MKEA128_conf.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_computer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 264</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 158 169</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\BMX055.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\speed_control.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 46 203 79 135 242 282 289 14 286 279 36 118 30 139 196 169 53 269 159 5 223 96 99 134 212 189 100 268 213 131 270 224 72 97 274 193 281 117 267 113 124 273 43 155 112 158 142 163 102 210 261 87 33 91 92 40 149 38 168 136 71 95 81 34 44 132 181 162 164 180</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 285</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139 242 38 117 34 169 286 168 196 53 164 149 281 46 88 282 79 44 181 30 87 96 193 5 97 136 71 159 95 289 134 189 100 268 213 131 270 142 81 112 273 132 162 180 40 158 269 224 72 203 14 223 274 135 279 267 113 36 163 102 210 261 33 91 92 99 124 212 43 118 155</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\Attitude_Calculation.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\App\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210 223 96 159 269 5 135 142 261 99 134 212 46 289 14 286 279 203 112 102 87 92 36 118 224 72 97 274 242 193 281 117 267 113 158 163 273 33 91 40 124 30 43 155 149 38 168 136 71 95 139 189 88 100 196 268 282 213 169 131 79 270 53 81 34 44 132 181 162 164 180</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\MPU6050.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_ASCII.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_key.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 102</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_LCD.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 273 34 134 81 99 112 142 124 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_ST7735R.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 283</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 99 273 34 112 142 124 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\KEA128_Debug\Exe\vcan_Kinetis.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 154 178 85 104 152 284 115 161 137 114 55 147 93 211 175 183 65 90 24 49 121 51 98 219 82 150 185 48 227 201 106 174 290 63 74 226 54 221 29 264 171 276 214 126 80 145 107 278 50 109 179 140 119 184 120</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_wdog.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_UI_VAR.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 275</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 273 34 134 81 99 112 142 124 44 202 195 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x10_ASCII.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 277</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157 212 132 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\MyOLED.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 30 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 212 132 43 155 181 118 162 164 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Common.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164 217 96 286 46 38 168 136 97 223</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_GBasic.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_PIT.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 189</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\IAR\startup_SKEAZ1284.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_ftm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 271 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 142</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_NRF24L0.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263 278</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 112 142 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 158</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Menu.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194 174</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87 117 242 155 34 112 30 43 102 92 212 118 142 210 261 224 72 203 286 46 44 96 132 181 162 164 158 163 273 33 91 40 269 289 159 5 14 97 71 95 81 134 270 268 180 38 168 136 223 139 189 88 100 196 282 213 169 131 79 53 149 193 281 274 135 279 267 113 36 99 124</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164 96 286 46 38 168 136 97 223 30 242 269 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 261 282 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font4x6_ASCII.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 288</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Hardware.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212 132 217 282 30 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 112 142 134 81 158 139 189 163 88 102 100 273 34 99 124 44 196 210 268 43 155 181 118 162 164 261 87 40 270 213 33 169 131 91 79 92 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font8x8_ASCII.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123 212 132 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_LED.C</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128 147</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 139</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_TSL1401.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 139 189 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_port.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\IAR\system_SKEAZ1284.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 158 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\vectors.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 140</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 127 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Picture.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 290</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Printf.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164 192 129 123 157</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\SOLGUI_Widget.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268 212 132 43 155 181 118 162 164 96 286 46 38 168 136 97 223</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_NRF24L0_MSG.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 100 195 202 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SOLGUI\src\Font\Font6x8_ASCII.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\KEA_SysTick.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 163</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Board\src\VCAN_LCD_ST7735S.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 145</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36 134 81 34 273 99 112 142 124 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Chip\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 269 286 46 38 168 136 97 96 223 224 274 149 135 289 159 279 71 203 281 117 193 72 267 95 113 5 14 36</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>KEA128_Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

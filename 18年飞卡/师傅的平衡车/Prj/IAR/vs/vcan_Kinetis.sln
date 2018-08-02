@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcan_Kinetis", "vcan_Kinetis.vcxproj", "{385E456C-9C52-4AB5-4FB9-A3EB421FB49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385E456C-9C52-4AB5-4FB9-A3EB421FB49E}.Debug|Win32.ActiveCfg = KEA128_Debug|Win32
+		{385E456C-9C52-4AB5-4FB9-A3EB421FB49E}.Debug|Win32.Build.0 = KEA128_Debug|Win32
+		{385E456C-9C52-4AB5-4FB9-A3EB421FB49E}.Release|Win32.ActiveCfg = KEA128_Release|Win32
+		{385E456C-9C52-4AB5-4FB9-A3EB421FB49E}.Release|Win32.Build.0 = KEA128_Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F69D76C-58C7-4329-8158-7E6DCA0CD808}
+	EndGlobalSection
+EndGlobal

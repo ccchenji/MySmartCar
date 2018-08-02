@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App" />
+    <Filter Include="App\Inc" />
+    <Filter Include="Board" />
+    <Filter Include="Board\inc" />
+    <Filter Include="Board\src" />
+    <Filter Include="Chip" />
+    <Filter Include="Chip\inc" />
+    <Filter Include="Chip\inc\IAR" />
+    <Filter Include="Chip\inc\kinetis" />
+    <Filter Include="Chip\src" />
+    <Filter Include="Chip\src\IAR" />
+    <Filter Include="Lib" />
+    <Filter Include="Lib\CMSIS" />
+    <Filter Include="Lib\CMSIS\Inc" />
+    <Filter Include="SOLGUI" />
+    <Filter Include="SOLGUI\src" />
+    <Filter Include="SOLGUI\src\Font" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\Attitude_Calculation.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\balance_control.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\control.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\dir_control.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MKEA128_conf.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MKEA128_it.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\motor_control.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\sensor.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\speed_control.c">
+    <Filter>App</Filter>
+    </ClCompile>
+    <ClInclude Include="App\enter.h">
+    <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\Attitude_Calculation.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\balance_control.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\control.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\dir_control.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\include.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\MKEA128_conf.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\MKEA128_it.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\motor_control.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\PORT_cfg.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\sensor.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Inc\speed_control.h">
+    <Filter>App\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\BMX055.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\IIC.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\KEA128_i2c.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\MMA8451.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\MPU3050.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\MPU6050.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\myiic.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_ASCII.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_computer.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_key.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_key_event.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_LCD.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_LCD_CH.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_LCD_ST7735R.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_LCD_ST7735S.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_LED.H">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_NRF24L0.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_NRF24L0_MSG.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_TSL1401.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\inc\VCAN_UI_VAR.h">
+    <Filter>Board\inc</Filter>
+    </ClInclude>
+    <ClCompile Include="Board\src\BMX055.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\IIC.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\KEA128_i2c.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\MMA8451.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\MPU3050.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\MPU6050.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\myiic.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_ASCII.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_computer.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_key.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_key_event.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_LCD.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_LCD_CH.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_LCD_ST7735R.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_LCD_ST7735S.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_LED.C">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_NRF24L0.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_NRF24L0_MSG.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_TSL1401.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\src\VCAN_UI_VAR.c">
+    <Filter>Board\src</Filter>
+    </ClCompile>
+    <ClInclude Include="Chip\inc\common.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_adc.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_ftm.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_gpio.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_gpio_cfg.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_pit.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_port.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_SysTick.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_uart.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\KEA_wdog.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\misc.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\vectors.h">
+    <Filter>Chip\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\IAR\iar.h">
+    <Filter>Chip\inc\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\IAR\system_SKEAZ1284.h">
+    <Filter>Chip\inc\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip\inc\kinetis\SKEAZ1284.h">
+    <Filter>Chip\inc\kinetis</Filter>
+    </ClInclude>
+    <ClCompile Include="Chip\src\KEA_adc.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_ftm.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_gpio.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_PIT.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_port.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_spi.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_SysTick.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_uart.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\KEA_wdog.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\misc.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\vectors.c">
+    <Filter>Chip\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\IAR\system_SKEAZ1284.c">
+    <Filter>Chip\src\IAR</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip\src\IAR\startup_SKEAZ1284.s">
+    <Filter>Chip\src\IAR</Filter>
+    </ClCompile>
+    <ClInclude Include="Lib\CMSIS\Inc\core_cm0plus.h">
+    <Filter>Lib\CMSIS\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\CMSIS\Inc\core_cmFunc.h">
+    <Filter>Lib\CMSIS\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\CMSIS\Inc\core_cmInstr.h">
+    <Filter>Lib\CMSIS\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="SOLGUI\src\MyOLED.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Common.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_GBasic.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Hardware.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Menu.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Picture.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Printf.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\SOLGUI_Widget.c">
+    <Filter>SOLGUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="SOLGUI\src\MyOLED.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Common.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Config.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_GBasic.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Hardware.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Include.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Menu.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Picture.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Printf.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Type.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\SOLGUI_Widget.h">
+    <Filter>SOLGUI\src</Filter>
+    </ClInclude>
+    <ClCompile Include="SOLGUI\src\Font\Font4x6_ASCII.c">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\Font\Font6x8_ASCII.c">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\Font\Font8x10_ASCII.c">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLGUI\src\Font\Font8x8_ASCII.c">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClCompile>
+    <ClInclude Include="SOLGUI\src\Font\Font4x6_ASCII.h">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\Font\Font6x8_ASCII.h">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\Font\Font8x10_ASCII.h">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\Font\Font8x8_ASCII.h">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SOLGUI\src\Font\Font_Macro.h">
+    <Filter>SOLGUI\src\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

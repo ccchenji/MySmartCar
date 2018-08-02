@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F91FE68-F5D2-4C86-9323-882D64B61895}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Smartcar_直立</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F10X_HD;__CC_ARM</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      <IncludePath>.\App;.\App\Inc;.\Board\inc;.\Chip\inc;.\Chip\inc\IAR;.\Chip\inc\kinetis;.\Lib\CMSIS\Inc;.\SOLGUI\src;.\SOLGUI\src\Font;C:\IAR\ARM\ARMCC\include</IncludePath>
+      <ReferencePath />
+      <LibraryPath />
+      <LibraryWPath />
+      <ExcludePath />
+      <SourcePath />
+    </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="App\Attitude_Calculation.c" />
+    <ClCompile Include="App\balance_control.c" />
+    <ClCompile Include="App\control.c" />
+    <ClCompile Include="App\dir_control.c" />
+    <ClCompile Include="App\main.c" />
+    <ClCompile Include="App\MKEA128_conf.c" />
+    <ClCompile Include="App\MKEA128_it.c" />
+    <ClCompile Include="App\motor_control.c" />
+    <ClCompile Include="App\sensor.c" />
+    <ClCompile Include="App\speed_control.c" />
+    <ClInclude Include="App\enter.h" />
+    <ClInclude Include="App\Inc\Attitude_Calculation.h" />
+    <ClInclude Include="App\Inc\balance_control.h" />
+    <ClInclude Include="App\Inc\control.h" />
+    <ClInclude Include="App\Inc\dir_control.h" />
+    <ClInclude Include="App\Inc\include.h" />
+    <ClInclude Include="App\Inc\MKEA128_conf.h" />
+    <ClInclude Include="App\Inc\MKEA128_it.h" />
+    <ClInclude Include="App\Inc\motor_control.h" />
+    <ClInclude Include="App\Inc\PORT_cfg.h" />
+    <ClInclude Include="App\Inc\sensor.h" />
+    <ClInclude Include="App\Inc\speed_control.h" />
+    <ClInclude Include="Board\inc\BMX055.h" />
+    <ClInclude Include="Board\inc\IIC.h" />
+    <ClInclude Include="Board\inc\KEA128_i2c.h" />
+    <ClInclude Include="Board\inc\MMA8451.h" />
+    <ClInclude Include="Board\inc\MPU3050.h" />
+    <ClInclude Include="Board\inc\MPU6050.h" />
+    <ClInclude Include="Board\inc\myiic.h" />
+    <ClInclude Include="Board\inc\VCAN_ASCII.h" />
+    <ClInclude Include="Board\inc\VCAN_computer.h" />
+    <ClInclude Include="Board\inc\VCAN_key.h" />
+    <ClInclude Include="Board\inc\VCAN_key_event.h" />
+    <ClInclude Include="Board\inc\VCAN_LCD.h" />
+    <ClInclude Include="Board\inc\VCAN_LCD_CH.h" />
+    <ClInclude Include="Board\inc\VCAN_LCD_ST7735R.h" />
+    <ClInclude Include="Board\inc\VCAN_LCD_ST7735S.h" />
+    <ClInclude Include="Board\inc\VCAN_LED.H" />
+    <ClInclude Include="Board\inc\VCAN_NRF24L0.h" />
+    <ClInclude Include="Board\inc\VCAN_NRF24L0_MSG.h" />
+    <ClInclude Include="Board\inc\VCAN_TSL1401.h" />
+    <ClInclude Include="Board\inc\VCAN_UI_VAR.h" />
+    <ClCompile Include="Board\src\BMX055.c" />
+    <ClCompile Include="Board\src\IIC.c" />
+    <ClCompile Include="Board\src\KEA128_i2c.c" />
+    <ClCompile Include="Board\src\MMA8451.c" />
+    <ClCompile Include="Board\src\MPU3050.c" />
+    <ClCompile Include="Board\src\MPU6050.c" />
+    <ClCompile Include="Board\src\myiic.c" />
+    <ClCompile Include="Board\src\VCAN_ASCII.c" />
+    <ClCompile Include="Board\src\VCAN_computer.c" />
+    <ClCompile Include="Board\src\VCAN_key.c" />
+    <ClCompile Include="Board\src\VCAN_key_event.c" />
+    <ClCompile Include="Board\src\VCAN_LCD.c" />
+    <ClCompile Include="Board\src\VCAN_LCD_CH.c" />
+    <ClCompile Include="Board\src\VCAN_LCD_ST7735R.c" />
+    <ClCompile Include="Board\src\VCAN_LCD_ST7735S.c" />
+    <ClCompile Include="Board\src\VCAN_LED.C" />
+    <ClCompile Include="Board\src\VCAN_NRF24L0.c" />
+    <ClCompile Include="Board\src\VCAN_NRF24L0_MSG.c" />
+    <ClCompile Include="Board\src\VCAN_TSL1401.c" />
+    <ClCompile Include="Board\src\VCAN_UI_VAR.c" />
+    <ClInclude Include="Chip\inc\common.h" />
+    <ClInclude Include="Chip\inc\KEA_adc.h" />
+    <ClInclude Include="Chip\inc\KEA_ftm.h" />
+    <ClInclude Include="Chip\inc\KEA_gpio.h" />
+    <ClInclude Include="Chip\inc\KEA_gpio_cfg.h" />
+    <ClInclude Include="Chip\inc\KEA_pit.h" />
+    <ClInclude Include="Chip\inc\KEA_port.h" />
+    <ClInclude Include="Chip\inc\KEA_SysTick.h" />
+    <ClInclude Include="Chip\inc\KEA_uart.h" />
+    <ClInclude Include="Chip\inc\KEA_wdog.h" />
+    <ClInclude Include="Chip\inc\misc.h" />
+    <ClInclude Include="Chip\inc\vectors.h" />
+    <ClInclude Include="Chip\inc\IAR\iar.h" />
+    <ClInclude Include="Chip\inc\IAR\system_SKEAZ1284.h" />
+    <ClInclude Include="Chip\inc\kinetis\SKEAZ1284.h" />
+    <ClCompile Include="Chip\src\KEA_adc.c" />
+    <ClCompile Include="Chip\src\KEA_ftm.c" />
+    <ClCompile Include="Chip\src\KEA_gpio.c" />
+    <ClCompile Include="Chip\src\KEA_PIT.c" />
+    <ClCompile Include="Chip\src\KEA_port.c" />
+    <ClCompile Include="Chip\src\KEA_spi.c" />
+    <ClCompile Include="Chip\src\KEA_SysTick.c" />
+    <ClCompile Include="Chip\src\KEA_uart.c" />
+    <ClCompile Include="Chip\src\KEA_wdog.c" />
+    <ClCompile Include="Chip\src\misc.c" />
+    <ClCompile Include="Chip\src\vectors.c" />
+    <ClCompile Include="Chip\src\IAR\system_SKEAZ1284.c" />
+    <ClCompile Include="Chip\src\IAR\startup_SKEAZ1284.s" />
+    <ClInclude Include="Lib\CMSIS\Inc\core_cm0plus.h" />
+    <ClInclude Include="Lib\CMSIS\Inc\core_cmFunc.h" />
+    <ClInclude Include="Lib\CMSIS\Inc\core_cmInstr.h" />
+    <ClCompile Include="SOLGUI\src\MyOLED.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Common.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_GBasic.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Hardware.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Menu.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Picture.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Printf.c" />
+    <ClCompile Include="SOLGUI\src\SOLGUI_Widget.c" />
+    <ClInclude Include="SOLGUI\src\MyOLED.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Common.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Config.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_GBasic.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Hardware.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Include.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Menu.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Picture.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Printf.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Type.h" />
+    <ClInclude Include="SOLGUI\src\SOLGUI_Widget.h" />
+    <ClCompile Include="SOLGUI\src\Font\Font4x6_ASCII.c" />
+    <ClCompile Include="SOLGUI\src\Font\Font6x8_ASCII.c" />
+    <ClCompile Include="SOLGUI\src\Font\Font8x10_ASCII.c" />
+    <ClCompile Include="SOLGUI\src\Font\Font8x8_ASCII.c" />
+    <ClInclude Include="SOLGUI\src\Font\Font4x6_ASCII.h" />
+    <ClInclude Include="SOLGUI\src\Font\Font6x8_ASCII.h" />
+    <ClInclude Include="SOLGUI\src\Font\Font8x10_ASCII.h" />
+    <ClInclude Include="SOLGUI\src\Font\Font8x8_ASCII.h" />
+    <ClInclude Include="SOLGUI\src\Font\Font_Macro.h" />
+  </ItemGroup>
+  </Project>

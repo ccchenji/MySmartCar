@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="KEA128_Debug|Win32">
+      <Configuration>KEA128_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="KEA128_Release|Win32">
+      <Configuration>KEA128_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\App\control.c">
+    </ClCompile>
+    <ClCompile Include="..\App\main.c">
+    </ClCompile>
+    <ClCompile Include="..\App\MKEA128_conf.c">
+    </ClCompile>
+    <ClCompile Include="..\App\MKEA128_it.c">
+    </ClCompile>
+    <ClCompile Include="..\App\Sensor.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\IIC.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\MPU6050.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_ASCII.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_computer.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_key.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_key_event.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_LCD.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_LCD_CH.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_LCD_ST7735R.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_LCD_ST7735S.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_NRF24L0.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_NRF24L0_MSG.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_TSL1401.c">
+    </ClCompile>
+    <ClCompile Include="..\Board\src\VCAN_UI_VAR.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_adc.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_ftm.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_gpio.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_PIT.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_port.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_SysTick.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_uart.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\KEA_wdog.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\misc.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\IAR\system_SKEAZ1284.c">
+    </ClCompile>
+    <ClCompile Include="..\Chip\src\vectors.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\MyOLED.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Common.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_GBasic.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Hardware.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Menu.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Picture.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Printf.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\SOLGUI_Widget.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\Font\Font4x6_ASCII.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\Font\Font6x8_ASCII.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\Font\Font8x10_ASCII.c">
+    </ClCompile>
+    <ClCompile Include="..\SOLGUI\src\Font\Font8x8_ASCII.c">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\App\Inc\MKEA128_conf.h">
+    </ClInclude>
+    <ClInclude Include="..\App\Inc\MKEA128_it.h">
+    </ClInclude>
+    <ClInclude Include="..\App\Inc\PORT_cfg.h">
+    </ClInclude>
+    <ClInclude Include="..\Chip\inc\common.h">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Board\src\VCAN_LED.C">
+    </None>
+    <None Include="..\Chip\src\IAR\startup_SKEAZ1284.s">
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F944567-8F40-4F5D-732F-A41511ECA74C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vcan_Kinetis</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='KEA128_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\App;..\App\Inc;..\Board\Inc;..\Chip\inc;..\Chip\inc\IAR;..\Chip\inc\kinetis;..\Lib\CMSIS\Inc;..\Lib\FatFs;..\Lib\USB;..\Lib\FatFs;..\SOLGUI\src;..\Lib\FatFs;..\SOLGUI\src\Font</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='KEA128_Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\App;..\App\Inc;..\Board\Inc;..\Chip\inc;..\Chip\inc\IAR;..\Chip\inc\kinetis;..\Lib\CMSIS\Inc;..\Lib\FatFs;..\Lib\USB</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='KEA128_Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DEBUG_MODE;ARM_MATH_CM0PLUS;MKEA128</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='KEA128_Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>ARM_MATH_CM0PLUS;MKEA128</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props">
+  </Import>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props">
+  </Import>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets">
+  </Import>
+</Project>

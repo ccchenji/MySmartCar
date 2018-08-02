@@ -1,0 +1,922 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                18/Jul/2018  02:46:38
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\ccchenji\AppData\Local\Temp\EWADFE.tmp
+#        ("C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\Attitude_Calculation.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\balance_control.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\BMX055.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\control.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\dir_control.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\Font4x6_ASCII.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\Font6x8_ASCII.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\Font8x10_ASCII.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\Font8x8_ASCII.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\IIC.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_adc.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_ftm.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_gpio.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_PIT.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_port.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_SysTick.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_uart.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\KEA_wdog.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\main.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\misc.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\MKEA128_conf.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\MKEA128_it.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\motor_control.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\MPU6050.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\myiic.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\MyOLED.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\sensor.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Common.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_GBasic.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Hardware.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Menu.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Picture.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Printf.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\SOLGUI_Widget.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\speed_control.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\startup_SKEAZ1284.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\system_SKEAZ1284.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_ASCII.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_computer.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_key.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_key_event.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_CH.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_ST7735R.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_ST7735S.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_LED.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_NRF24L0.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_NRF24L0_MSG.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_TSL1401.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\VCAN_UI_VAR.o"
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj\vectors.o" --redirect
+#        _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb -o
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Exe\vcan_Kinetis.out"
+#        --map "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\KEA128_Debug\List\vcan_Kinetis.map"
+#        --config
+#        "C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software -
+#        副本\Smartcar_直立\Prj\IAR\config files\vcan_ROM_KEA128.icf"
+#        --entry __iar_program_start --redirect __write=__write_buffered --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00004000 { ro section .intvec };
+"A1":  place at 0x000040c0 { ro section .noinit };
+define block CodeRelocate { section .textrw_init };
+"P1":  place in [from 0x00004000 to 0x00020000] { ro, block CodeRelocate };
+define block CodeRelocateRam { section .textrw };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"P2":  place in [from 0x1ffff000 to 0x20003000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+No sections matched the following patterns:
+
+  section .textrw       in block CodeRelocateRam
+  section .textrw_init  in block CodeRelocate
+
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                         0xc0
+  .intvec              const    0x00004000    0xc0  vectors.o [1]
+                              - 0x000040c0    0xc0
+
+"A1":                                          0x8
+  .noinit              ro code  0x000040c0     0x8  startup_SKEAZ1284.o [1]
+                              - 0x000040c8     0x8
+
+"P1", part 1 of 2:                          0x7104
+  .text                ro code  0x000040c8   0xc78  Attitude_Calculation.o [1]
+  .text                ro code  0x00004d40    0xb0  FltMul.o [4]
+  .text                ro code  0x00004df0   0x120  FltAddSub.o [4]
+  .text                ro code  0x00004f10    0x66  sqrtf.o [4]
+  .text                ro code  0x00004f78    0x26  FltCmpLe.o [4]
+  .text                ro code  0x00004f9e    0xaa  FltDiv.o [4]
+  .text                ro code  0x00005048    0xde  atan2_32.o [4]
+  .text                ro code  0x00005128    0x28  FltCmpGe.o [4]
+  .text                ro code  0x00005150    0xd0  asin32.o [4]
+  .text                ro code  0x00005220   0x270  cos_sin32.o [4]
+  .text                ro code  0x00005490    0x9c  acos32.o [4]
+  .text                ro code  0x0000552c    0x32  FltToDbl.o [4]
+  .text                ro code  0x0000555e   0x184  DblMul.o [4]
+  .text                ro code  0x000056e2    0x62  DblToFlt.o [4]
+  .text                ro code  0x00005744    0x20  FltCmpEq.o [4]
+  .text                ro code  0x00005764    0x5c  ABImemcpy.o [5]
+  .text                ro code  0x000057c0    0x32  DblCmpLe.o [4]
+  .text                ro code  0x000057f2    0xc2  DblDiv.o [4]
+  .text                ro code  0x000058b4   0x134  iar_Atan32.o [4]
+  .text                ro code  0x000059e8    0x3a  FltToS32.o [4]
+  .text                ro code  0x00005a24    0x36  IxxToFlt.o [4]
+  .text                ro code  0x00005a5c   0x9ac  SOLGUI_Widget.o [1]
+  .text                ro code  0x00006408   0x574  SOLGUI_Menu.o [1]
+  .text                ro code  0x0000697c   0x7ea  SOLGUI_Printf.o [1]
+  .text                ro code  0x00007166   0x298  SOLGUI_GBasic.o [1]
+  .text                ro code  0x00007400    0x34  IxxToDbl.o [4]
+  .text                ro code  0x00007434   0x1b4  DblAddSub.o [4]
+  .text                ro code  0x000075e8    0x52  DblToI32.o [4]
+  .text                ro code  0x0000763a    0x32  DblCmpGe.o [4]
+  .text                ro code  0x0000766c    0xbc  SOLGUI_Common.o [1]
+  .text                ro code  0x00007728    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x00007808    0x14  SOLGUI_Hardware.o [1]
+  .text                ro code  0x0000781c    0x50  ABImemset.o [5]
+  .text                ro code  0x0000786c     0x2  IntDivZer.o [5]
+  .text                ro code  0x00007870   0x434  MyOLED.o [1]
+  .text                ro code  0x00007ca4   0x1d8  KEA_gpio.o [1]
+  .text                ro code  0x00007e7c    0x60  MKEA128_conf.o [1]
+  .text                ro code  0x00007edc    0x80  VCAN_LED.o [1]
+  .text                ro code  0x00007f5c    0x6c  misc.o [1]
+  .text                ro code  0x00007fc8   0x10c  KEA_uart.o [1]
+  .text                ro code  0x000080d4    0x7c  KEA_port.o [1]
+  .text                ro code  0x00008150   0x530  main.o [1]
+  .text                ro code  0x00008680   0x2d0  balance_control.o [1]
+  .text                ro code  0x00008950   0x298  dir_control.o [1]
+  .text                ro code  0x00008be8   0x178  control.o [1]
+  .text                ro code  0x00008d60   0x1ac  speed_control.o [1]
+  .text                ro code  0x00008f0c    0xa4  motor_control.o [1]
+  .text                ro code  0x00008fb0    0xa4  KEA_adc.o [1]
+  .text                ro code  0x00009054    0x7c  VCAN_key.o [1]
+  .text                ro code  0x000090d0    0x64  KEA_SysTick.o [1]
+  .text                ro code  0x00009134   0x472  KEA_ftm.o [1]
+  .text                ro code  0x000095a8   0x49e  myiic.o [1]
+  .text                ro code  0x00009a46   0x24a  BMX055.o [1]
+  .text                ro code  0x00009c90    0x94  KEA_PIT.o [1]
+  .data_init                    0x00009d24   0x48c  <Block>
+    Initializer bytes  const    0x00009d24   0x48c  <for .data-1>
+  .rodata              const    0x0000a1b0   0x3b8  Font8x10_ASCII.o [1]
+  .rodata              const    0x0000a568   0x350  Font6x8_ASCII.o [1]
+  .rodata              const    0x0000a8b8   0x228  MyOLED.o [1]
+  .text                ro code  0x0000aae0   0x160  vectors.o [1]
+  .text                ro code  0x0000ac40   0x12c  system_SKEAZ1284.o [1]
+  .text                ro code  0x0000ad6c    0x54  KEA_wdog.o [1]
+  .rodata              const    0x0000adc0    0x5c  KEA_SysTick.o [1]
+  .rodata              const    0x0000ae1c    0x58  KEA_adc.o [1]
+  .rodata              const    0x0000ae74    0x58  KEA_ftm.o [1]
+  .rodata              const    0x0000aecc    0x58  KEA_gpio.o [1]
+  .rodata              const    0x0000af24    0x58  KEA_PIT.o [1]
+  .rodata              const    0x0000af7c    0x54  misc.o [1]
+  .text                ro code  0x0000afd0    0x3c  zero_init3.o [5]
+  .text                ro code  0x0000b00c    0x28  data_init.o [5]
+  .rodata              const    0x0000b034    0x24  MKEA128_conf.o [1]
+  .iar.init_table      const    0x0000b058    0x10  - Linker created -
+  .text                ro code  0x0000b068    0x1e  cmain.o [5]
+  .text                ro code  0x0000b086     0x4  low_level_init.o [3]
+  .text                ro code  0x0000b08a     0x8  exit.o [3]
+  .text                ro code  0x0000b094     0xa  cexit.o [5]
+  .text                ro code  0x0000b0a0     0xc  XXexit.o [5]
+  .rodata              const    0x0000b0ac    0x18  MyOLED.o [1]
+  .rodata              const    0x0000b0c4    0x10  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b0d4     0xc  KEA_port.o [1]
+  .rodata              const    0x0000b0e0     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b0ec     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b0f8     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b104     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b110     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b11c     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b128     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b134     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b140     0xc  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b14c     0xc  SOLGUI_Menu.o [1]
+  .text                ro code  0x0000b158     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000b164     0x8  MyOLED.o [1]
+  .rodata              const    0x0000b16c     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b174     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b17c     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b184     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b18c     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b194     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b19c     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b1a4     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b1ac     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b1b4     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b1bc     0x8  SOLGUI_Menu.o [1]
+  .rodata              const    0x0000b1c4     0x8  SOLGUI_Widget.o [1]
+  .rodata              const    0x0000b1cc     0x0  zero_init3.o [5]
+                              - 0x0000b1cc  0x7104
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x0000b1cc     0x0  <Block>
+
+"P2", part 1 of 3:                           0x48c
+  .data                         0x1ffff000   0x48c  <Block>
+    .data-1                     0x1ffff000   0x48c  <Init block>
+      .data            inited   0x1ffff000     0x4  balance_control.o [1]
+      .data            inited   0x1ffff004     0x4  balance_control.o [1]
+      .data            inited   0x1ffff008     0x4  dir_control.o [1]
+      .data            inited   0x1ffff00c     0x4  dir_control.o [1]
+      .data            inited   0x1ffff010     0x4  dir_control.o [1]
+      .data            inited   0x1ffff014     0x4  dir_control.o [1]
+      .data            inited   0x1ffff018     0x4  dir_control.o [1]
+      .data            inited   0x1ffff01c     0x4  dir_control.o [1]
+      .data            inited   0x1ffff020     0x4  dir_control.o [1]
+      .data            inited   0x1ffff024     0x4  dir_control.o [1]
+      .data            inited   0x1ffff028     0xc  KEA_gpio.o [1]
+      .data            inited   0x1ffff034   0x400  MyOLED.o [1]
+      .data            inited   0x1ffff434     0x4  sensor.o [1]
+      .data            inited   0x1ffff438     0xc  SOLGUI_Menu.o [1]
+      .data            inited   0x1ffff444     0xc  SOLGUI_Menu.o [1]
+      .data            inited   0x1ffff450     0xc  SOLGUI_Menu.o [1]
+      .data            inited   0x1ffff45c     0x8  SOLGUI_Printf.o [1]
+      .data            inited   0x1ffff464     0x8  SOLGUI_Printf.o [1]
+      .data            inited   0x1ffff46c     0x4  SOLGUI_Widget.o [1]
+      .data            inited   0x1ffff470     0x4  speed_control.o [1]
+      .data            inited   0x1ffff474     0x4  speed_control.o [1]
+      .data            inited   0x1ffff478     0x4  speed_control.o [1]
+      .data            inited   0x1ffff47c     0xc  VCAN_key.o [1]
+      .data            inited   0x1ffff488     0x4  VCAN_LED.o [1]
+                              - 0x1ffff48c   0x48c
+
+"P2", part 2 of 3:                           0x6e0
+  .bss                          0x1ffff48c   0x6e0  <Block>
+    .bss               zero     0x1ffff48c     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff498     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4a4    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4b4     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4c0    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4d0     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4dc    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4ec     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff4f8    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff508    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff518     0xc  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff524    0x10  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff534     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff538     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff53c     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff540     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff544     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff548     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff54c     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff550     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff554     0x4  Attitude_Calculation.o [1]
+    .bss               zero     0x1ffff558     0x4  balance_control.o [1]
+    .bss               zero     0x1ffff55c    0x14  balance_control.o [1]
+    .bss               zero     0x1ffff570     0x4  balance_control.o [1]
+    .bss               zero     0x1ffff574     0x4  balance_control.o [1]
+    .bss               zero     0x1ffff578     0x4  balance_control.o [1]
+    .bss               zero     0x1ffff57c     0x4  balance_control.o [1]
+    .bss               zero     0x1ffff580     0x4  control.o [1]
+    .bss               zero     0x1ffff584     0x4  control.o [1]
+    .bss               zero     0x1ffff588     0x4  control.o [1]
+    .bss               zero     0x1ffff58c     0x4  dir_control.o [1]
+    .bss               zero     0x1ffff590     0x4  dir_control.o [1]
+    .bss               zero     0x1ffff594    0x28  dir_control.o [1]
+    .bss               zero     0x1ffff5bc     0x4  dir_control.o [1]
+    .bss               zero     0x1ffff5c0    0x10  dir_control.o [1]
+    .bss               zero     0x1ffff5d0     0x4  dir_control.o [1]
+    .bss               zero     0x1ffff5d4     0xc  KEA_ftm.o [1]
+    .bss               zero     0x1ffff5e0    0x10  main.o [1]
+    .bss               zero     0x1ffff5f0     0x4  main.o [1]
+    .bss               zero     0x1ffff5f4    0x10  main.o [1]
+    .bss               zero     0x1ffff604     0x4  main.o [1]
+    .bss               zero     0x1ffff608     0x4  main.o [1]
+    .bss               zero     0x1ffff60c    0x30  main.o [1]
+    .bss               zero     0x1ffff63c    0x50  main.o [1]
+    .bss               zero     0x1ffff68c    0x10  main.o [1]
+    .bss               zero     0x1ffff69c    0x10  main.o [1]
+    .bss               zero     0x1ffff6ac     0x4  main.o [1]
+    .bss               zero     0x1ffff6b0     0x4  main.o [1]
+    .bss               zero     0x1ffff6b4     0x4  sensor.o [1]
+    .bss               zero     0x1ffff6b8     0x4  sensor.o [1]
+    .bss               zero     0x1ffff6bc    0x24  sensor.o [1]
+    .bss               zero     0x1ffff6e0     0xc  sensor.o [1]
+    .bss               zero     0x1ffff6ec     0xc  sensor.o [1]
+    .bss               zero     0x1ffff6f8   0x400  SOLGUI_Common.o [1]
+    .bss               zero     0x1ffffaf8     0x4  SOLGUI_Menu.o [1]
+    .bss               zero     0x1ffffafc     0x8  SOLGUI_Menu.o [1]
+    .bss               zero     0x1ffffb04     0xc  SOLGUI_Widget.o [1]
+    .bss               zero     0x1ffffb10    0x14  SOLGUI_Widget.o [1]
+    .bss               zero     0x1ffffb24     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb28     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb2c    0x14  speed_control.o [1]
+    .bss               zero     0x1ffffb40     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb44     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb48     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb4c     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb50     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb54     0x4  speed_control.o [1]
+    .bss               zero     0x1ffffb58     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffffb5c     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffffb60     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffffb64     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffffb68     0x1  main.o [1]
+    .bss               zero     0x1ffffb69     0x1  SOLGUI_Menu.o [1]
+    .bss               zero     0x1ffffb6a     0x1  SOLGUI_Menu.o [1]
+    .bss               zero     0x1ffffb6b     0x1  SOLGUI_Widget.o [1]
+                              - 0x1ffffb6c   0x6e0
+
+"P2", part 3 of 3:                             0x0
+  CodeRelocateRam               0x1ffffb6c     0x0  <Block>
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x6e0:
+          0x1ffff48c  0x6e0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software - 副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj: [1]
+    Attitude_Calculation.o    3 192               204
+    BMX055.o                    586
+    Font6x8_ASCII.o                      848
+    Font8x10_ASCII.o                     952
+    KEA_PIT.o                   148       88
+    KEA_SysTick.o               100       92
+    KEA_adc.o                   164       88
+    KEA_ftm.o                 1 138       88       12
+    KEA_gpio.o                  472      100       12
+    KEA_port.o                  124       12
+    KEA_uart.o                  268
+    KEA_wdog.o                   84
+    MKEA128_conf.o               96       36
+    MyOLED.o                  1 076    1 608    1 024
+    SOLGUI_Common.o             188             1 024
+    SOLGUI_GBasic.o             664
+    SOLGUI_Hardware.o            20
+    SOLGUI_Menu.o             1 396      260       50
+    SOLGUI_Printf.o           2 026       16       16
+    SOLGUI_Widget.o           2 476       12       37
+    VCAN_LED.o                  128        4        4
+    VCAN_key.o                  124       12       12
+    balance_control.o           720        8       48
+    control.o                   376                12
+    dir_control.o               664       32      104
+    main.o                    1 328               213
+    misc.o                      108       84
+    motor_control.o             164
+    myiic.o                   1 182
+    sensor.o                               4       72
+    speed_control.o             428       12       64
+    startup_SKEAZ1284.o           8
+    system_SKEAZ1284.o          300                16
+    vectors.o                   352      192
+    -------------------------------------------------
+    Total:                   20 100    4 548    2 924
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+m6M_tl.a: [4]
+    DblAddSub.o                 436
+    DblCmpGe.o                   50
+    DblCmpLe.o                   50
+    DblDiv.o                    194
+    DblMul.o                    388
+    DblToFlt.o                   98
+    DblToI32.o                   82
+    FltAddSub.o                 288
+    FltCmpEq.o                   32
+    FltCmpGe.o                   40
+    FltCmpLe.o                   38
+    FltDiv.o                    170
+    FltMul.o                    176
+    FltToDbl.o                   50
+    FltToS32.o                   58
+    IxxToDbl.o                   52
+    IxxToFlt.o                   54
+    acos32.o                    156
+    asin32.o                    208
+    atan2_32.o                  222
+    cos_sin32.o                 624
+    iar_Atan32.o                308
+    sqrtf.o                     102
+    -------------------------------------------------
+    Total:                    3 876
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                  92
+    ABImemset.o                  80
+    I32DivModFast.o             224
+    IntDivZer.o                   2
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      562
+
+    Gaps                         18
+    Linker created                        16
+-----------------------------------------------------
+    Grand Total:             24 568    4 564    2 924
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1ffff48c          --   Gb  - Linker created -
+.bss$$Limit             0x1ffffb6c          --   Gb  - Linker created -
+.data$$Base             0x1ffff000          --   Gb  - Linker created -
+.data$$Limit            0x1ffff48c          --   Gb  - Linker created -
+.data_init$$Base        0x00009d24          --   Gb  - Linker created -
+.data_init$$Limit       0x0000a1b0          --   Gb  - Linker created -
+.iar.init_table$$Base   0x0000b058          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000b068          --   Gb  - Linker created -
+?main                   0x0000b069         Code  Gb  cmain.o [5]
+ADCFianlly              0x1ffff69c   0x10  Data  Gb  main.o [1]
+ADC_Sum                 0x1ffff68c   0x10  Data  Gb  main.o [1]
+ADC_V                   0x1ffff60c   0x30  Data  Gb  main.o [1]
+ASSERT_FAILED_STR       0x0000b034   0x24  Data  Gb  MKEA128_conf.o [1]
+Acc                     0x1ffff48c    0xc  Data  Gb  Attitude_Calculation.o [1]
+AccZAngle               0x1ffff570    0x4  Data  Gb  balance_control.o [1]
+AngleSpeed              0x1ffff6b4    0x4  Data  Gb  sensor.o [1]
+Attitude_UpdateAcc      0x00004a99   0xe0  Code  Gb  Attitude_Calculation.o [1]
+Attitude_UpdateGyro     0x00004b91  0x154  Code  Gb  Attitude_Calculation.o [1]
+AxisAngle               0x1ffff4c0   0x10  Data  Gb  Attitude_Calculation.o [1]
+BMX055_DataRead         0x00009b79  0x118  Code  Gb  BMX055.o [1]
+BMX055_data             0x1ffff6bc   0x24  Data  Gb  sensor.o [1]
+BMX055_init             0x00009a47  0x132  Code  Gb  BMX055.o [1]
+BalanceControl          0x00008681   0x4e  Code  Gb  balance_control.o [1]
+Balance_Kd              0x1ffff004    0x4  Data  Gb  balance_control.o [1]
+Balance_Kp              0x1ffff000    0x4  Data  Gb  balance_control.o [1]
+Balance_Out             0x1ffff558    0x4  Data  Gb  balance_control.o [1]
+CalSpeedError           0x00008d61   0xbe  Code  Gb  speed_control.o [1]
+CalSpeedError::speed_filter
+                        0x1ffffb54    0x4  Data  Lc  speed_control.o [1]
+CalSpeedError::speed_old
+                        0x1ffffb50    0x4  Data  Lc  speed_control.o [1]
+CircleTime              0x1ffff608    0x4  Data  Gb  main.o [1]
+CodeRelocate$$Base      0x0000b1cc          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x0000b1cc          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1ffffb6c          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1ffffb6c          --   Gb  - Linker created -
+DirErr                  0x1ffff58c    0x4  Data  Gb  dir_control.o [1]
+DirErrList              0x1ffff594   0x28  Data  Gb  dir_control.o [1]
+DirKd                   0x1ffff00c    0x4  Data  Gb  dir_control.o [1]
+DirKp                   0x1ffff008    0x4  Data  Gb  dir_control.o [1]
+DirOut                  0x1ffff590    0x4  Data  Gb  dir_control.o [1]
+Dir_Control             0x00008b3d   0x68  Code  Gb  dir_control.o [1]
+Draw_BMP                0x00007bc1   0x68  Code  Gb  MyOLED.o [1]
+Encoder_init            0x00008d1d   0x2c  Code  Gb  control.o [1]
+ErrAxisAngle            0x1ffff524   0x10  Data  Gb  Attitude_Calculation.o [1]
+ErrEulerAngle           0x1ffff518    0xc  Data  Gb  Attitude_Calculation.o [1]
+ErrLoop                 0x1ffff604    0x4  Data  Gb  main.o [1]
+ErrQuaternion           0x1ffff508   0x10  Data  Gb  Attitude_Calculation.o [1]
+EulerAngle              0x1ffff4b4    0xc  Data  Gb  Attitude_Calculation.o [1]
+EulerAngleRate          0x1ffff4d0    0xc  Data  Gb  Attitude_Calculation.o [1]
+ExpectSpeed             0x1ffff470    0x4  Data  Gb  speed_control.o [1]
+F6x8                    0x0000a8b8  0x228  Data  Gb  MyOLED.o [1]
+FIFO_DeQueue            0x000067b5   0x36  Code  Gb  SOLGUI_Menu.o [1]
+FIFO_EnQueue            0x0000677d   0x24  Code  Gb  SOLGUI_Menu.o [1]
+FIFO_Init               0x00006759   0x1e  Code  Gb  SOLGUI_Menu.o [1]
+Flag_SpeedControl       0x1ffffb4c    0x4  Data  Gb  speed_control.o [1]
+GPIOX                   0x1ffff028    0xc  Data  Gb  KEA_gpio.o [1]
+GetAngle                0x000086cf  0x216  Code  Gb  balance_control.o [1]
+GetAngle::IsAttitudeinit
+                        0x1ffff578    0x4  Data  Lc  balance_control.o [1]
+GetAngle::MAGcnt        0x1ffff57c    0x4  Data  Lc  balance_control.o [1]
+Get_ADC_Err             0x00008951  0x1ec  Code  Gb  dir_control.o [1]
+Gyro                    0x1ffff498    0xc  Data  Gb  Attitude_Calculation.o [1]
+IIC_DELAY               0x000095a9    0x2  Code  Lc  myiic.o [1]
+IIC_Read_Buff           0x00009993   0x8c  Code  Gb  myiic.o [1]
+IIC_Read_Reg            0x0000992d   0x66  Code  Gb  myiic.o [1]
+IIC_Write_Reg           0x000098dd   0x50  Code  Gb  myiic.o [1]
+IIC_ack                 0x0000971f   0x4e  Code  Lc  myiic.o [1]
+IIC_init_BMX            0x00009a1f   0x28  Code  Gb  myiic.o [1]
+IIC_noack               0x0000976d   0x50  Code  Lc  myiic.o [1]
+IIC_readbyte            0x00009821   0xa2  Code  Lc  myiic.o [1]
+IIC_sendbyte            0x000097bd   0x5c  Code  Lc  myiic.o [1]
+IIC_start               0x000095ab   0x6c  Code  Lc  myiic.o [1]
+IIC_stop                0x00009617   0x5a  Code  Lc  myiic.o [1]
+IIC_waitack             0x00009671   0xae  Code  Lc  myiic.o [1]
+KEY_NUM                 0x1ffffb68    0x1  Data  Gb  main.o [1]
+KEY_PTxn                0x1ffff47c    0xc  Data  Gb  VCAN_key.o [1]
+Key_Scan                0x00008be9   0xc8  Code  Gb  control.o [1]
+LED_PTxn                0x1ffff488    0x4  Data  Gb  VCAN_LED.o [1]
+Left_Motor_Control      0x00008f59   0x4c  Code  Gb  motor_control.o [1]
+MeaAxisAngle            0x1ffff4f8   0x10  Data  Gb  Attitude_Calculation.o [1]
+MeaEulerAngle           0x1ffff4ec    0xc  Data  Gb  Attitude_Calculation.o [1]
+MeaQuaternion           0x1ffff4dc   0x10  Data  Gb  Attitude_Calculation.o [1]
+Mvalue                  0x1ffff5c0   0x10  Data  Gb  dir_control.o [1]
+NVIC_EnableIRQ          0x00008151    0xe  Code  Lc  main.o [1]
+OLED_DLY_ms             0x000079e1   0x20  Code  Gb  MyOLED.o [1]
+OLED_Fill               0x0000799f   0x42  Code  Gb  MyOLED.o [1]
+OLED_Init               0x00007a01  0x134  Code  Gb  MyOLED.o [1]
+OLED_P6x8Str            0x00007b45   0x72  Code  Gb  MyOLED.o [1]
+OLED_Set_Pos            0x0000796f   0x30  Code  Gb  MyOLED.o [1]
+OLED_WrCmd              0x000078f1   0x7e  Code  Gb  MyOLED.o [1]
+OLED_WrDat              0x00007871   0x80  Code  Gb  MyOLED.o [1]
+QZAngle                 0x1ffff574    0x4  Data  Gb  balance_control.o [1]
+Quaternion              0x1ffff4a4   0x10  Data  Gb  Attitude_Calculation.o [1]
+QuaternionFromAcc       0x000046d1  0x312  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_FromAxisAngle
+                        0x000044ed   0x5e  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_FromEulerAngle
+                        0x000043b1  0x10e  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_Invert       0x00004171   0x24  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_Multi        0x00004195  0x10a  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_Normalize    0x000040c9   0xa8  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_ToAxisAngle  0x000044bf   0x2e  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_ToEulerAngle
+                        0x0000429f  0x108  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_UpdateFromGyro
+                        0x0000454b  0x180  Code  Gb  Attitude_Calculation.o [1]
+Quaternion_init         0x000049f1   0x9c  Code  Gb  Attitude_Calculation.o [1]
+RealSpeed               0x1ffffb24    0x4  Data  Gb  speed_control.o [1]
+Region$$Table$$Base     0x0000b058          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000b068          --   Gb  - Linker created -
+Reset_Handler           0x000040c1         Code  Gb  startup_SKEAZ1284.o [1]
+Right_Motor_Control     0x00008f0d   0x4c  Code  Gb  motor_control.o [1]
+SOLGUI_CSR              0x1ffffb6a    0x1  Data  Gb  SOLGUI_Menu.o [1]
+SOLGUI_Clean            0x0000769d   0x16  Code  Gb  SOLGUI_Common.o [1]
+SOLGUI_Cursor           0x00005aa7  0x2a4  Code  Gb  SOLGUI_Widget.o [1]
+SOLGUI_DrawPoint        0x000076b3   0x72  Code  Gb  SOLGUI_Common.o [1]
+SOLGUI_GBasic_Line      0x000071f5  0x124  Code  Gb  SOLGUI_GBasic.o [1]
+SOLGUI_GBasic_Rectangle
+                        0x00007319   0xe6  Code  Gb  SOLGUI_GBasic.o [1]
+SOLGUI_GRAM             0x1ffff6f8  0x400  Data  Gb  SOLGUI_Common.o [1]
+SOLGUI_GetCurrentKey    0x000068b7    0x6  Code  Gb  SOLGUI_Menu.o [1]
+SOLGUI_Hardware_FillScreen
+                        0x00007811    0xc  Code  Gb  SOLGUI_Hardware.o [1]
+SOLGUI_Hardware_Init    0x00007809    0x8  Code  Gb  SOLGUI_Hardware.o [1]
+SOLGUI_Init             0x0000766d   0x22  Code  Gb  SOLGUI_Common.o [1]
+SOLGUI_InputKey         0x000068a9    0xe  Code  Gb  SOLGUI_Menu.o [1]
+SOLGUI_Menu_PageStage   0x000068c1   0x50  Code  Gb  SOLGUI_Menu.o [1]
+SOLGUI_Menu_SetHomePage
+                        0x00006897    0xe  Code  Gb  SOLGUI_Menu.o [1]
+SOLGUI_Menu_Title       0x00006809   0x8e  Code  Gb  SOLGUI_Menu.o [1]
+SOLGUI_PutChar          0x000069c1   0xc4  Code  Gb  SOLGUI_Printf.o [1]
+SOLGUI_PutString        0x00006a85   0x3e  Code  Gb  SOLGUI_Printf.o [1]
+SOLGUI_Refresh          0x0000768f    0xe  Code  Gb  SOLGUI_Common.o [1]
+SOLGUI_SwitchFont       0x0000697d   0x3a  Code  Gb  SOLGUI_Printf.o [1]
+SOLGUI_Widget_GotoPage  0x00005d51   0xa6  Code  Gb  SOLGUI_Widget.o [1]
+SOLGUI_Widget_OptionText
+                        0x00006399   0x4c  Code  Gb  SOLGUI_Widget.o [1]
+SOLGUI_Widget_Spin      0x00005e6d  0x52c  Code  Gb  SOLGUI_Widget.o [1]
+SOLGUI_Widget_Spin::spin_pos
+                        0x1ffffb6b    0x1  Data  Lc  SOLGUI_Widget.o [1]
+SOLGUI_printf           0x00007149   0x1e  Code  Gb  SOLGUI_Printf.o [1]
+SpeedControl            0x00008e1f   0x70  Code  Gb  speed_control.o [1]
+SpeedControlOut         0x00008e8f   0x34  Code  Gb  speed_control.o [1]
+SpeedErr                0x1ffffb28    0x4  Data  Gb  speed_control.o [1]
+SpeedErrorTemp          0x1ffffb2c   0x14  Data  Gb  speed_control.o [1]
+SpeedOut                0x1ffffb40    0x4  Data  Gb  speed_control.o [1]
+SpeedOutNew             0x1ffffb44    0x4  Data  Gb  speed_control.o [1]
+SpeedOutOld             0x1ffffb48    0x4  Data  Gb  speed_control.o [1]
+Speed_Ki                0x1ffff478    0x4  Data  Gb  speed_control.o [1]
+Speed_Kp                0x1ffff474    0x4  Data  Gb  speed_control.o [1]
+Speed_calulate          0x00008cb1   0x6c  Code  Gb  control.o [1]
+SystemAttitude          0x1ffff6e0    0xc  Data  Gb  sensor.o [1]
+SystemAttitudeRate      0x1ffff6ec    0xc  Data  Gb  sensor.o [1]
+UI_Cir                  0x1ffff450    0xc  Data  Gb  SOLGUI_Menu.o [1]
+UI_Debug                0x1ffff444    0xc  Data  Gb  SOLGUI_Menu.o [1]
+UI_MENU                 0x1ffff438    0xc  Data  Gb  SOLGUI_Menu.o [1]
+XD                      0x1ffff53c    0x4  Data  Gb  Attitude_Calculation.o [1]
+XE                      0x1ffff538    0x4  Data  Gb  Attitude_Calculation.o [1]
+XN                      0x1ffff534    0x4  Data  Gb  Attitude_Calculation.o [1]
+YD                      0x1ffff548    0x4  Data  Gb  Attitude_Calculation.o [1]
+YE                      0x1ffff544    0x4  Data  Gb  Attitude_Calculation.o [1]
+YN                      0x1ffff540    0x4  Data  Gb  Attitude_Calculation.o [1]
+ZD                      0x1ffff554    0x4  Data  Gb  Attitude_Calculation.o [1]
+ZE                      0x1ffff550    0x4  Data  Gb  Attitude_Calculation.o [1]
+ZN                      0x1ffff54c    0x4  Data  Gb  Attitude_Calculation.o [1]
+_Font6x8                0x0000a568  0x350  Data  Gb  Font6x8_ASCII.o [1]
+_Font8x10               0x0000a1b0  0x3b8  Data  Gb  Font8x10_ASCII.o [1]
+_LineModes              0x00007167   0x8e  Code  Gb  SOLGUI_GBasic.o [1]
+_OptionsDisplay_Judge   0x00005a5d   0x32  Code  Gb  SOLGUI_Widget.o [1]
+_OptionsDisplay_coorY   0x00005a8f   0x18  Code  Gb  SOLGUI_Widget.o [1]
+_Pow_10                 0x00005dfd   0x4c  Code  Gb  SOLGUI_Widget.o [1]
+_UI_Cir                 0x00006665   0xf0  Code  Gb  SOLGUI_Menu.o [1]
+_UI_Debug               0x00006529   0xda  Code  Gb  SOLGUI_Menu.o [1]
+_UI_MENU                0x00006409  0x120  Code  Gb  SOLGUI_Menu.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20002ff8         Data  Gb  command line/config [2]
+__SOLGUI_printf         0x00006ac3  0x682  Code  Gb  SOLGUI_Printf.o [1]
+__VECTOR_TABLE {Abs}    0x00004000         Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x000057c1         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0000763b         Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x00005745         Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x00004f79         Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x00005129         Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x000056e3         Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x000075e9         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0000760d         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x00007435         Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x000057f3         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0000555f         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x000074fb         Code  Gb  DblAddSub.o [4]
+__aeabi_f2d             0x0000552d         Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x000059e9         Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x00004df1         Code  Gb  FltAddSub.o [4]
+__aeabi_fdiv            0x00004f9f         Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x00004d41         Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x00004e61         Code  Gb  FltAddSub.o [4]
+__aeabi_i2d             0x00007421         Code  Gb  IxxToDbl.o [4]
+__aeabi_i2f             0x00005a45         Code  Gb  IxxToFlt.o [4]
+__aeabi_idiv            0x00007755         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x0000786d         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x00007755         Code  Gb  I32DivModFast.o [5]
+__aeabi_memcpy          0x00005765         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x0000781d         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x00007401         Code  Gb  IxxToDbl.o [4]
+__aeabi_ui2f            0x00005a25         Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x0000775b         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0000775b         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x0000b069         Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x000040c0         Data  Gb  command line/config [2]
+__exit                  0x0000b0a1         Code  Gb  XXexit.o [5]
+__iar_Atan32            0x000058b5   0xf8  Code  Gb  iar_Atan32.o [4]
+__iar_Memset4_word      0x0000783d         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x00007829         Code  Gb  ABImemset.o [5]
+__iar_Sin32             0x00005221  0x226  Code  Lc  cos_sin32.o [4]
+__iar_acos32            0x00005491   0x9c  Code  Gb  acos32.o [4]
+__iar_asin32            0x00005151   0xd0  Code  Gb  asin32.o [4]
+__iar_atan2_32          0x00005049   0xde  Code  Gb  atan2_32.o [4]
+__iar_cos32             0x0000547d    0xa  Code  Gb  cos_sin32.o [4]
+__iar_cos_medium32      0x0000547d    0xa  Code  Gb  cos_sin32.o [4]
+__iar_cos_mediumf       0x0000547d    0xa  Code  Gb  cos_sin32.o [4]
+__iar_d2uiz             0x00007611         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x0000b00d   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x0000b159         Code  Gb  cstartup_M.o [5]
+__iar_sin32             0x00005487    0xa  Code  Gb  cos_sin32.o [4]
+__iar_sin_medium32      0x00005487    0xa  Code  Gb  cos_sin32.o [4]
+__iar_sin_mediumf       0x00005487    0xa  Code  Gb  cos_sin32.o [4]
+__iar_sqrt32            0x00004f11         Code  Gb  sqrtf.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x0000afd1   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000b087    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00004000   0xc0  Data  Gb  vectors.o [1]
+_call_main              0x0000b075         Code  Gb  cmain.o [5]
+_exit                   0x0000b095         Code  Gb  cexit.o [5]
+_fontInfo_6x8           0x1ffff45c    0x8  Data  Gb  SOLGUI_Printf.o [1]
+_fontInfo_8x10          0x1ffff464    0x8  Data  Gb  SOLGUI_Printf.o [1]
+_key_cache              0x1ffffafc    0x8  Data  Gb  SOLGUI_Menu.o [1]
+_main                   0x0000b083         Code  Gb  cmain.o [5]
+a                       0x000059c8   0x20  Data  Lc  iar_Atan32.o [4]
+acmp0_irqhandler_default
+                        0x0000abd1    0x8  Code  Lc  vectors.o [1]
+acmp1_irqhandler_default
+                        0x0000abf9    0x8  Code  Lc  vectors.o [1]
+acosf                   0x00005491   0x9c  Code  Gb  acos32.o [4]
+adc0_irqhandler_default
+                        0x0000abc9    0x8  Code  Lc  vectors.o [1]
+adcFirst                0x1ffff63c   0x50  Data  Gb  main.o [1]
+adc_init                0x00008fb1   0x38  Code  Gb  KEA_adc.o [1]
+adc_once                0x00008fe9   0x30  Code  Gb  KEA_adc.o [1]
+adc_start               0x00009019   0x20  Code  Lc  KEA_adc.o [1]
+adc_value               0x1ffff5e0   0x10  Data  Gb  main.o [1]
+angle_offset            0x1ffff434    0x4  Data  Gb  sensor.o [1]
+asinf                   0x00005151   0xd0  Code  Gb  asin32.o [4]
+assert_failed           0x00007e7d   0x26  Code  Gb  MKEA128_conf.o [1]
+atan2f                  0x00005049   0xde  Code  Gb  atan2_32.o [4]
+bInCircle               0x1ffff5bc    0x4  Data  Gb  dir_control.o [1]
+bus_clk_khz             0x1ffffb60    0x4  Data  Gb  system_SKEAZ1284.o [1]
+cauc_logo               0x1ffff034  0x400  Data  Gb  MyOLED.o [1]
+cirControl              0x1ffff5d0    0x4  Data  Gb  dir_control.o [1]
+common_startup          0x0000acc1   0x5c  Code  Gb  system_SKEAZ1284.o [1]
+core_clk_khz            0x1ffffb58    0x4  Data  Gb  system_SKEAZ1284.o [1]
+core_clk_mhz            0x1ffffb5c    0x4  Data  Gb  system_SKEAZ1284.o [1]
+cosf                    0x0000547d    0xa  Code  Gb  cos_sin32.o [4]
+cur_key                 0x1ffffb69    0x1  Data  Gb  SOLGUI_Menu.o [1]
+current_page            0x1ffffaf8    0x4  Data  Gb  SOLGUI_Menu.o [1]
+cursor                  0x1ffff46c    0x4  Data  Gb  SOLGUI_Widget.o [1]
+cursor_reg              0x1ffffb04    0xc  Data  Gb  SOLGUI_Widget.o [1]
+default_isr             0x00007ec5   0x18  Code  Gb  MKEA128_conf.o [1]
+draw_cauc_logo          0x00007c6b   0x28  Code  Gb  MyOLED.o [1]
+enCircle                0x1ffff010    0x4  Data  Gb  dir_control.o [1]
+enter_fputc             0x00007ea3   0x14  Code  Gb  MKEA128_conf.o [1]
+exit                    0x0000b08b    0x8  Code  Gb  exit.o [3]
+filterAdc               0x000082a5  0x21a  Code  Gb  main.o [1]
+flag_run                0x1ffff6ac    0x4  Data  Gb  main.o [1]
+ftm0_irqhandler_default
+                        0x0000abd9    0x8  Code  Lc  vectors.o [1]
+ftm1_irqhandler_default
+                        0x0000abe1    0x8  Code  Lc  vectors.o [1]
+ftm2_irqhandler_default
+                        0x0000abe9    0x8  Code  Lc  vectors.o [1]
+ftm_clean               0x000095a1    0x6  Code  Gb  KEA_ftm.o [1]
+ftm_enable_clk          0x00009267   0x26  Code  Lc  KEA_ftm.o [1]
+ftm_mod                 0x1ffff5d4    0xc  Data  Lc  KEA_ftm.o [1]
+ftm_port_mux            0x00009135  0x132  Code  Lc  KEA_ftm.o [1]
+ftm_pulse_get           0x0000959b    0x6  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_init          0x00009569   0x32  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_mux           0x000094dd   0x82  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_duty            0x000093ed   0xd8  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_init            0x000092a9  0x134  Code  Gb  KEA_ftm.o [1]
+ftmre_irqhandler_default
+                        0x0000ab79    0x8  Code  Lc  vectors.o [1]
+g_AngleOfCar            0x1ffff6b8    0x4  Data  Gb  sensor.o [1]
+g_real_speed            0x1ffff588    0x4  Data  Gb  control.o [1]
+g_upstandControl_PWMTemp
+                        0x1ffff55c   0x14  Data  Gb  balance_control.o [1]
+gpio_get                0x00007e2d   0x44  Code  Gb  KEA_gpio.o [1]
+gpio_init               0x00007ca5   0xc0  Code  Gb  KEA_gpio.o [1]
+gpio_set                0x00007d65   0x88  Code  Gb  KEA_gpio.o [1]
+gpio_turn               0x00007ded   0x40  Code  Gb  KEA_gpio.o [1]
+hardfault_handler_default
+                        0x0000aae9    0x8  Code  Lc  vectors.o [1]
+i2c0_irqhandler_default
+                        0x0000ab91    0x8  Code  Lc  vectors.o [1]
+i2c1_irqhandler_default
+                        0x0000ab99    0x8  Code  Lc  vectors.o [1]
+ics_init                0x0000ac55   0x5a  Code  Gb  system_SKEAZ1284.o [1]
+ics_irqhandler_default  0x0000ac19    0x8  Code  Lc  vectors.o [1]
+irq_irqhandler_default  0x0000ab89    0x8  Code  Lc  vectors.o [1]
+kbi0_irqhandler_default
+                        0x0000ac01    0x8  Code  Lc  vectors.o [1]
+kbi1_irqhandler_default
+                        0x0000ac09    0x8  Code  Lc  vectors.o [1]
+key_get                 0x000090b1   0x1c  Code  Gb  VCAN_key.o [1]
+key_init                0x00009055   0x5c  Code  Gb  VCAN_key.o [1]
+key_value               0x1ffff5f0    0x4  Data  Gb  main.o [1]
+led_init                0x00007edd   0x40  Code  Gb  VCAN_LED.o [1]
+led_turn                0x00007f1d   0x38  Code  Gb  VCAN_LED.o [1]
+main                    0x000084e9  0x166  Code  Gb  main.o [1]
+motorEncorderL          0x1ffff580    0x4  Data  Gb  control.o [1]
+motorEncorderR          0x1ffff584    0x4  Data  Gb  control.o [1]
+mscan_rx_irqhandler_default
+                        0x0000ac31    0x8  Code  Lc  vectors.o [1]
+mscan_tx_err_wakeup_irqhandler_default
+                        0x0000ac39    0x8  Code  Lc  vectors.o [1]
+nmi_handler_default     0x0000aae1    0x8  Code  Lc  vectors.o [1]
+option_enable_list      0x1ffffb10   0x14  Data  Gb  SOLGUI_Widget.o [1]
+pendsv_handler_default  0x0000ab41    0x8  Code  Lc  vectors.o [1]
+pit0_irq                0x0000815f   0xe0  Code  Gb  main.o [1]
+pit0_irq::index         0x1ffff6b0    0x4  Data  Lc  main.o [1]
+pit1_irq                0x0000823f   0x4a  Code  Gb  main.o [1]
+pit_init                0x00009c91   0x84  Code  Gb  KEA_PIT.o [1]
+pixelC_HW_OLED_FillScreen
+                        0x00007c29   0x42  Code  Gb  MyOLED.o [1]
+pmc_irqhandler_default  0x0000ab81    0x8  Code  Lc  vectors.o [1]
+port_pull               0x000080d5   0x76  Code  Gb  KEA_port.o [1]
+pwt_irqhandler_default  0x0000ac29    0x8  Code  Lc  vectors.o [1]
+rtc_irqhandler_default  0x0000abf1    0x8  Code  Lc  vectors.o [1]
+sinf                    0x00005487    0xa  Code  Gb  cos_sin32.o [4]
+soft_delay_ms           0x00007f81   0x1a  Code  Gb  misc.o [1]
+soft_delay_us           0x00007f5d   0x24  Code  Gb  misc.o [1]
+spi0_irqhandler_default
+                        0x0000aba1    0x8  Code  Lc  vectors.o [1]
+spi1_irqhandler_default
+                        0x0000aba9    0x8  Code  Lc  vectors.o [1]
+sqrtf                   0x00004f11         Code  Gb  sqrtf.o [4]
+start                   0x0000ac41   0x14  Code  Gb  system_SKEAZ1284.o [1]
+svc_handler_default     0x0000ab29    0x8  Code  Lc  vectors.o [1]
+sysinit                 0x0000acaf   0x12  Code  Gb  system_SKEAZ1284.o [1]
+systick_delay           0x000090d1   0x38  Code  Gb  KEA_SysTick.o [1]
+systick_delay_ms        0x00009109   0x18  Code  Gb  KEA_SysTick.o [1]
+systick_handler_default
+                        0x0000ab49    0x8  Code  Lc  vectors.o [1]
+theGroung               0x1ffff018    0x4  Data  Gb  dir_control.o [1]
+timeOutCircle           0x1ffff024    0x4  Data  Gb  dir_control.o [1]
+timeToCircle            0x1ffff020    0x4  Data  Gb  dir_control.o [1]
+timer_clk_khz           0x1ffffb64    0x4  Data  Gb  system_SKEAZ1284.o [1]
+turnKp                  0x1ffff014    0x4  Data  Gb  dir_control.o [1]
+turnNum                 0x1ffff01c    0x4  Data  Gb  dir_control.o [1]
+uart0_irqhandler_default
+                        0x0000abb1    0x8  Code  Lc  vectors.o [1]
+uart1_irqhandler_default
+                        0x0000abb9    0x8  Code  Lc  vectors.o [1]
+uart2_irqhandler_default
+                        0x0000abc1    0x8  Code  Lc  vectors.o [1]
+uart_init               0x00007fc9   0xd6  Code  Gb  KEA_uart.o [1]
+uart_putchar            0x0000809f    0xc  Code  Gb  KEA_uart.o [1]
+vcan_send_buff          0x1ffff5f4   0x10  Data  Gb  main.o [1]
+vector_004_default      0x0000aaf1    0x8  Code  Lc  vectors.o [1]
+vector_005_default      0x0000aaf9    0x8  Code  Lc  vectors.o [1]
+vector_006_default      0x0000ab01    0x8  Code  Lc  vectors.o [1]
+vector_007_default      0x0000ab09    0x8  Code  Lc  vectors.o [1]
+vector_008_default      0x0000ab11    0x8  Code  Lc  vectors.o [1]
+vector_009_default      0x0000ab19    0x8  Code  Lc  vectors.o [1]
+vector_010_default      0x0000ab21    0x8  Code  Lc  vectors.o [1]
+vector_012_default      0x0000ab31    0x8  Code  Lc  vectors.o [1]
+vector_013_default      0x0000ab39    0x8  Code  Lc  vectors.o [1]
+vector_016_default      0x0000ab51    0x8  Code  Lc  vectors.o [1]
+vector_017_default      0x0000ab59    0x8  Code  Lc  vectors.o [1]
+vector_018_default      0x0000ab61    0x8  Code  Lc  vectors.o [1]
+vector_019_default      0x0000ab69    0x8  Code  Lc  vectors.o [1]
+vector_020_default      0x0000ab71    0x8  Code  Lc  vectors.o [1]
+vector_042_default      0x0000ac11    0x8  Code  Lc  vectors.o [1]
+wdog_disable            0x0000ad6d   0x1a  Code  Gb  KEA_wdog.o [1]
+wdog_irqhandler_default
+                        0x0000ac21    0x8  Code  Lc  vectors.o [1]
+wdog_unlock             0x0000ad87   0x1c  Code  Lc  KEA_wdog.o [1]
+write_vtor              0x00007f9b   0x20  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\ccchenji\Desktop\2018_13th_NXP_Smartcar-djh_software - 副本\Smartcar_直立\Prj\IAR\KEA128_Debug\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+
+  24 568 bytes of readonly  code memory
+   4 564 bytes of readonly  data memory
+   2 924 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

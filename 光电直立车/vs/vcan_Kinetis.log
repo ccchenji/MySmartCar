@@ -1,0 +1,118 @@
+﻿  direction.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  flashload.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  Fuzzy_control.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  image_deal_new.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  main.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_conf.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_it.c
+  motor_control.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  parameter.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  sensor.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  speed.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  IMU_IIC.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MMA8451.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MPU3050.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  OLED.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  sdcard.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  VCAN_camera.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  VCAN_computer.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  vcan_img2sd.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  VCAN_key.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  VCAN_OV7725_Eagle.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  VCAN_OV7725_Wolf.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  VCAN_SCCB.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  misc.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_adc.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_can.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_dac.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_dma.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_DWT.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_flash.c
+d:\文档\github\intelligentcar_new\chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_flexbus.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_ftm.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_gpio.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_lptmr.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_mcg.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_PIT.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_port.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_rtc.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_spi.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_SysTick.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  MK60_uart.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  MK60_wdog.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  system_MK60DZ10.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  vectors.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  diskio.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  ff.c
+d:\文档\github\intelligentcar_new\lib\fatfs\integer.h(10): fatal error C1083: 无法打开包括文件: “windows.h”: No such file or directory
+  Font4x6_ASCII.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  Font6x8_ASCII.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  Font8x10_ASCII.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  Font8x8_ASCII.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Common.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_GBasic.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Hardware.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Menu.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Picture.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Printf.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  SOLGUI_Widget.c
+D:\文档\GitHub\IntelligentCar_New\Chip\inc\common.h(395): fatal error C1083: 无法打开包括文件: “stdio.h”: No such file or directory
+  正在生成代码...

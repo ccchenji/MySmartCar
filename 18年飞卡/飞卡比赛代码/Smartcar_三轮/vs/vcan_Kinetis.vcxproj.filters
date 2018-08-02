@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="源文件\App">
+			<UniqueIdentifier>{2376d25b-b8b6-455f-4996-b3af36d07e98}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\Board">
+			<UniqueIdentifier>{76b3fdc3-d260-45fe-7f1c-27d2768f1689}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\Chip">
+			<UniqueIdentifier>{318d4747-f510-44b1-5f13-a7a52cc75d6b}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\LIB">
+			<UniqueIdentifier>{ee980ef8-1121-45ac-674e-f85a4bc02200}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\SOLGUI">
+			<UniqueIdentifier>{52dc49ac-e64b-4524-4304-3e917409bf35}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\SOLGUI\SRC">
+			<UniqueIdentifier>{93d3e4f2-a299-4185-5ac4-a29eda15d59a}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件\SOLGUI\SRC\Font">
+			<UniqueIdentifier>{db103e57-f227-4fe1-40e9-6294054e0e29}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="源文件">
+			<UniqueIdentifier>{d4cbe19e-cecf-4215-76cf-9e75d459d299}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\App\control.c">
+			<Filter>源文件\App</Filter>
+		</ClCompile>
+		<ClCompile Include="..\App\main.c">
+			<Filter>源文件\App</Filter>
+		</ClCompile>
+		<ClCompile Include="..\App\MKEA128_conf.c">
+			<Filter>源文件\App</Filter>
+		</ClCompile>
+		<ClCompile Include="..\App\MKEA128_it.c">
+			<Filter>源文件\App</Filter>
+		</ClCompile>
+		<ClCompile Include="..\App\Sensor.c">
+			<Filter>源文件\App</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\IIC.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\MPU6050.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_ASCII.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_computer.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_key.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_key_event.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_LCD.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_LCD_CH.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_LCD_ST7735R.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_LCD_ST7735S.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_NRF24L0.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_NRF24L0_MSG.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_TSL1401.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Board\src\VCAN_UI_VAR.c">
+			<Filter>源文件\Board</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_adc.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_ftm.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_gpio.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_PIT.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_port.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_SysTick.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_uart.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\KEA_wdog.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\misc.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\IAR\system_SKEAZ1284.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Chip\src\vectors.c">
+			<Filter>源文件\Chip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\MyOLED.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Common.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_GBasic.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Hardware.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Menu.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Picture.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Printf.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\SOLGUI_Widget.c">
+			<Filter>源文件\SOLGUI\SRC</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\Font\Font4x6_ASCII.c">
+			<Filter>源文件\SOLGUI\SRC\Font</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\Font\Font6x8_ASCII.c">
+			<Filter>源文件\SOLGUI\SRC\Font</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\Font\Font8x10_ASCII.c">
+			<Filter>源文件\SOLGUI\SRC\Font</Filter>
+		</ClCompile>
+		<ClCompile Include="..\SOLGUI\src\Font\Font8x8_ASCII.c">
+			<Filter>源文件\SOLGUI\SRC\Font</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\App\Inc\MKEA128_conf.h">
+			<Filter>源文件\App</Filter>
+		</ClInclude>
+		<ClInclude Include="..\App\Inc\MKEA128_it.h">
+			<Filter>源文件\App</Filter>
+		</ClInclude>
+		<ClInclude Include="..\App\Inc\PORT_cfg.h">
+			<Filter>源文件\App</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Chip\inc\common.h">
+			<Filter>源文件\Chip</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\Board\src\VCAN_LED.C">
+			<Filter>源文件\Board</Filter>
+		</None>
+		<None Include="..\Chip\src\IAR\startup_SKEAZ1284.s">
+			<Filter>源文件\Chip</Filter>
+		</None>
+	</ItemGroup>
+</Project>

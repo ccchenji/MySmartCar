@@ -1,0 +1,24 @@
+*.o
+*.ko
+*.obj
+*.elf
+*.xcl
+*.pbi
+*.pbd
+/Prj/IAR/KEA128_Debug
+/Prj/IAR/settings
+/settings
+/Prj/IAR/vs/.vs
+!.sln
+!.txt
+!.a
+# Object files
+
+
+
+
+
+
+
+
+
